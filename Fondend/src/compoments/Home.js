@@ -20,6 +20,9 @@ const Home = () => {
     const handleCutting = (event) => {
         navigate("/cutting");
     }
+    const handleBooking = (event) => {
+        navigate("/booking");
+    }
     return (
         <>
             <div className="container-fluid">
@@ -104,7 +107,7 @@ const Home = () => {
                                     <div className="dichvu ">
                                         <div className="p-3">
                                             <img src={dongho} alt="" />
-                                            <h3><strong>Booking</strong></h3>
+                                            <h3 onClick={() => handleBooking()}><strong>Booking</strong></h3>
                                         </div>
                                     </div>
                                 </Col>

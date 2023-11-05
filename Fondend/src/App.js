@@ -5,6 +5,7 @@ import Login from './compoments/Login';
 import Singup from './compoments/Singup';
 import Cutting from './compoments/Cutting';
 import { Sevices } from './compoments/Sevices';
+import Booking from './compoments/Booking';
 function App() {
   return (
     <div className='App'>
@@ -14,6 +15,7 @@ function App() {
         <Route path='/Singup' element={<Singup />} />
         <Route path='/cutting' element={<Cutting />} />
         <Route path='/sev' element={<Sevices />} />
+        <Route path='/booking' element={<Booking />} />
       </Routes>
     </div>
   );
