@@ -2,35 +2,35 @@ import "./Sevices.scss";
 export const Sevices = () => {
     return (
         <>
-            <div class="card">
-                <div class="content">
-                    <div class="back">
-                        <div class="back-content">
+            <div className="card">
+                <div className="content">
+                    <div className="back">
+                        <div className="back-content">
 
                             <strong>Hover Me</strong>
                         </div>
                     </div>
-                    <div class="front">
+                    <div className="front">
 
-                        <div class="img">
-                            <div class="circle">
+                        <div className="img">
+                            <div className="circle">
                             </div>
-                            <div class="circle" id="right">
+                            <div className="circle" id="right">
                             </div>
-                            <div class="circle" id="bottom">
+                            <div className="circle" id="bottom">
                             </div>
                         </div>
 
-                        <div class="front-content">
-                            <small class="badge">Pasta</small>
-                            <div class="description">
-                                <div class="title">
-                                    <p class="title">
+                        <div className="front-content">
+                            <small className="badge">Pasta</small>
+                            <div className="description">
+                                <div className="title">
+                                    <p className="title">
                                         <strong>Spaguetti Bolognese</strong>
                                     </p>
 
                                 </div>
-                                <p class="card-footer">
+                                <p className="card-footer">
                                     30 Mins &nbsp; | &nbsp; 1 Serving
                                 </p>
                             </div>

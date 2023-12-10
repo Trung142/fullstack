@@ -16,7 +16,7 @@
 
         i {
             position: absolute;
-            top: 33px;
+            top: 21px;
             right: 10px;
         }
     }
@@ -25,31 +25,49 @@
         color: rgba(0, 0, 0, 0.877);
         font-weight: bold;
     }
+
+    .go-back {
+        text-align: center;
+
+        span {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
 }
 
 @media (max-width: 576px) {
     .bg-whites {
-        width: 300px;
+        width: 30rem;
     }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 576px) {
     .bg-whites {
-        width: 400px;
+        width: 35rem;
     }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     .bg-whites {
-        width: 450px;
+        width: 40rem;
     }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
     .bg-whites {
-        width: 500px;
+        width: 40rem;
+    }
+}
+
+//modale
+.modal {
+    .fa-solid {
+        position: absolute;
+        top: 21px;
+        right: 10px;
     }
 }

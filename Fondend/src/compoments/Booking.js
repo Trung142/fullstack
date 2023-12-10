@@ -1,4 +1,4 @@
-import "./Booking.scss";
+
 const Booking = (props) => {
     return (
         <div>
